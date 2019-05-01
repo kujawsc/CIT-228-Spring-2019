@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Record Insertion Form</title>
+</head>
+<body>
+<form action="insert(db).php" method="POST">
+
+    <p><label for="id">Enter Customer ID:</label><br/>
+        <input type="text" id="id" name="id" size="30" /></p>
+
+    <p><label for="custName">Enter Customer Name:</label><br/>
+        <input type="text" id="custName" name="custName" size="30" /></p>
+    
+    <p><label for="mobilePhone">Enter Customer Mobile Phone:</label><br/>
+        <input type="text" id="mobilePhone" name="mobilePhone" size="30" /></p>
+
+    <p><label for="emailAddr">Enter Customer Email Address:</label><br/>
+        <input type="text" id="emailAddr" name="emailAddr" size="30" /></p>
+        
+<button type="submit" name="submit" value="insert">Insert Record</button>
+
+</form>
+</body>
+</html>
