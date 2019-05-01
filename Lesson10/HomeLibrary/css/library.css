@@ -1,0 +1,116 @@
+﻿
+h1 {
+     text-align: center; 
+     font-family:courier; 
+     color :#fafdfb;
+    }
+ h2 {
+     text-align: center; 
+     font-family:courier; 
+     color:#fafdfb;
+    }
+ h3, h4  {
+     text-align: center; 
+     font-family:courier;
+     color:#fafdfb; 
+     font-size:35pt;
+    }
+ h5, h6 {
+     text-align: center; 
+     font-family:courier;
+     color:#fafdfb; 
+     font-size:12pt;
+    }
+ p { 
+     text-align: center; 
+     font-family:courier; 
+     font-size:12pt; 
+     color :#fafdfb;
+    }
+ ol {
+     text-align: center; 
+     font-family:courier; 
+     font-size:12pt; 
+     color:#fafdfb; 
+    }
+ li {
+    text-align: center; 
+    font-family:courier; 
+    font-size:12pt; 
+    color:#fafdfb;
+}
+ ul {
+    text-align: center; 
+    font-family:courier; 
+    font-size:12pt; 
+    color:#fafdfb;
+}
+ div{
+     text-align: center; 
+     font-family:courier; 
+     font-size:12pt; 
+     color:#fafdfb; 
+    }
+a:link {
+    color:#fafdfb; 
+    text-decoration: underline; 
+}
+a:active {
+    color:#fafdfb; 
+    text-decoration: underline; 
+}
+a:visited {
+    color:#fafdfb; 
+    text-decoration: underline; 
+}
+a:hover {
+    color: white; 
+    background-color: #fafdfb4b ; 
+    text-decoration: none; }
+table {
+    text-align: center; 
+    font-family:courier; 
+    color:#fafdfb; 
+    border:10px solid #fafdfb ; 
+    border-right: 10px solid #fafdfb;
+    border-top: 10px solid #fafdfb ; 
+    border-bottom: 10px solid #fafdfb; 
+}
+th {
+    font-size:14pt; 
+    font-weight:bold; 
+    font-family:courier; 
+    background-color:#fafdfb ; 
+    color:white;
+}
+td {
+    height:10px; 
+    font-family:courier; 
+    font-size:12pt; color:#fafdfb; 
+    border-right: 10px solid #fafdfb; 
+    border-bottom: 10px solid #fafdfb ;
+}
+hr { 
+    height:4px; 
+    color:#fafdfb ; 
+    background-color:#fafdfb; 
+}
+blockquote {
+    font-family:courier, sans-serif;
+}
+body {
+    background-color: white; 
+    background-image:url('../media/a5253.jpg');
+    background-position: auto;
+}
+form,fieldset{
+    width:100%;
+}
+fieldset, legend{
+    font-size:15px;
+    font-family: courier;
+    color: white;
+}
+img {
+    border:none;
+}
