@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Login</title>
+  <meta name="author" content="Catherine Kujawski">
+    
+  <!-- custom styles -->
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+
+<body>
+  <section class="form-section vertical-center login-section">
+      <div class="container">
+          <div class="row menu-row">
+
+              <div class="col-md-4 offset-md-4">
+                  <div class="login_container">
+
+                  <h1 class="card-body">
+                    Sign in to Your Library
+                  </h1>
+
+                  <form action="userlogin.php" method="post">
+                        <label for="username">Username</label>
+                        <input name="username" type="text">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="">
+                        <button type="submit" id="login_button">Sign In</button>
+                  </form>
+                </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</body>
+</html>
+
