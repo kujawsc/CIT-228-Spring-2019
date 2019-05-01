@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=GlassAntiqua);
+body{
+    font-family: 'GlassAntiqua', cursive;
+    background-image: url('../images/1218.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    font-size: 15pt;
+}
+section {
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: #06b0ffa8;
+    width: 550px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(12, 12, 12);
+}
+input:focus{
+    background-color: #8fdaec;
+    color: rgb(0, 0, 0);
+}
+p{
+    text-align: left;
+    font-size: 13pt;
+    font-weight: 950;
+    color: rgb(3, 12, 133);
+
+
+}
+.error{
+    color: red;
+    font-size: 14pt;
+}
+.inputButtom{
+    font-size: 14pt;
+    width: 100px;
+    height: 30px;
+    font-size: 12pt;
+    background-color: #f8f7f6;
+    color: rgb(6, 26, 199);
+    font-family: 'GlassAntiqua', cursive;
+    font-weight: 900;
+}
+.formEntry{
+    text-align: line;
+    width: 200px;
+    font-size: 12pt;
+    color: rgb(12, 11, 11);
+}
+#lableFormat{
+    text-align: left;
+    width: 200px;
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+legend{
+    font-size: 150%;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 3px #a87830;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+label{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2{
+	font-family: 'GlassAntiqua', cursive;
+	font-size:22pt;
+    text-align:center;
+}
